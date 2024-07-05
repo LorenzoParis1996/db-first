@@ -1,0 +1,11 @@
+id                        SMALLINT       AUTO_INCREMENT
+marca                     VARCHAR(15)    NOT_NULL
+modello                   VARCHAR(15)    NOT_NULL
+cilindrata                TINYINT(10)    NOT_NULL
+porte                     TINYINT(8)     NOT_NULL
+targa                     VARCHAR(10)    UNIQUE
+data_immatricolazione     YEAR           NOT_NULL
+km                        MEDIUMINT      NOT_NULL
+trazione                  VARCHAR(10)    NULL
+tipo_cambio               VARCHAR(10)    NULL
+disponibilita'            BOOLEAN        DEFAULT(0)
